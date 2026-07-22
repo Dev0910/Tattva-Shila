@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7b5f70b8af11d40aed25cb0b112064, type: 3}
+  m_Name: Water Bullet
+  m_EditorClassIdentifier: 
+  bulletType: 0
+  towerType: 3
+  sprite: {fileID: -7256119688921948062, guid: 801bba82819898845bd34fabb57d94e9, type: 3}
+  damage: 10
+  speed: 5
+  effect: {fileID: 0}
+  hasBurn: 0
+  burnDuration: 0
+  hasSlowEffect: 1
+  speedMultiplier: 0.5
+  slowEffectDuration: 5
+  hasThrowBack: 0
+  throwBackSpeed: 0
+  aoeRange: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0

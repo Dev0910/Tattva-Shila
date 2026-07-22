@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46917f29628ab9458f2405428ab4bc6, type: 3}
+  m_Name: Air Tower
+  m_EditorClassIdentifier: 
+  towerSprite: {fileID: -7297935267008611534, guid: 8ea5d88b7dc34af4bba67e01a8ee570a, type: 3}
+  towerType: 4
+  fireRate: 0.5
+  range: 5
+  firstElement: 4
+  secondElement: 0
+  bulletData: {fileID: 11400000, guid: 83e7027e61ec76847ab93ae6f5932187, type: 2}
+  aoeEffectPrefab: {fileID: 0}
+  aoeDamage: 0
+  aoeEffectDuration: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  burnDuration: 0
+  speedMultiplier: 0
+  slowEffectDuration: 0
+  throwBackSpeed: 0

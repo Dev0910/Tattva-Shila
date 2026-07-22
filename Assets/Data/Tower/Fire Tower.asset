@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46917f29628ab9458f2405428ab4bc6, type: 3}
+  m_Name: Fire Tower
+  m_EditorClassIdentifier: 
+  towerSprite: {fileID: 4261765914540205507, guid: f3158da5b1aef8a48a4b4e5d52f01055, type: 3}
+  towerType: 1
+  fireRate: 0.5
+  range: 5
+  firstElement: 1
+  secondElement: 0
+  bulletData: {fileID: 11400000, guid: eef645eca2d45184c8910090f9b475ff, type: 2}
+  aoeEffectPrefab: {fileID: 0}
+  aoeDamage: 0
+  aoeEffectDuration: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  burnDuration: 0
+  speedMultiplier: 0
+  slowEffectDuration: 0
+  throwBackSpeed: 0
